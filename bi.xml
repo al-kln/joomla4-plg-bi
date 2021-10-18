@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>PLG_BI</name>
+	<author>Alexander Klein</author>
+	<creationDate>September 2020</creationDate>
+	<copyright>Copyright (C) 2021 Alexander Klein</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>alexander.klein@fact-werbeagentur.de</authorEmail>
+	<version>1.6.1</version>
+	<description>PLG_BI_DESC</description>
+	<files>
+		<filename plugin="bi">bi.php</filename>
+		<filename>bi.xml</filename>
+	</files>
+	<media folder="assets" destination="plg_bi">
+		<folder>icons</folder>
+	</media>
+	<languages folder="language">
+		<language tag="de-DE">de-DE/de-DE.plg_system_bi.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_system_bi.sys.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" name="Bootstrap Icons" priority="1">https://raw.githubusercontent.com/al-kln/updateservers/main/j4_plg_bi.xml</server>
+	</updateservers>
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+
+                <field
+                    name="bi__setup"
+                    type="note"
+					class="alert alert-info"
+                    label="BI_SYNTAX"
+					description="BI_SYNTAX_DESC"
+                />
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>
