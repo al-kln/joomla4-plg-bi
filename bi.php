@@ -83,7 +83,7 @@ class PlgSystemBi extends CMSPlugin
 
 				$output = $matches[1][$i];
 
-				$icon__file = file_get_contents(Uri::base() . 'media/plg_system_bi/icons/' . $output . '.svg');
+				$icon__file = file_get_contents(Uri::base() . 'media/plg_bi/icons/' . $output . '.svg');
 				$find__svg = '<svg';
 				$position = strpos($icon__file, $find__svg);
 				$set__icon = substr($icon__file, $position);
