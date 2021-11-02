@@ -1,7 +1,7 @@
 ![bootstrap-icons-social](https://user-images.githubusercontent.com/60511211/137745440-63f06c7e-b96e-4ef8-9d44-33fc922d0376.png)
 # Bootstrap Icons for Joomla! CMS™
 
-Free, high quality, open source icon library with over 1,400 icons. Include them anyway you like—SVGs, SVG sprite, or web fonts. Use them with or without Bootstrap in any project.
+Free, high quality, open source icon library with over 1,500 icons. Include them anyway you like—SVGs, SVG sprite, or web fonts. Use them with or without Bootstrap in any project.
 
 <a href="https://icons.getbootstrap.com/" target="_blank">Bootstrap Icons</a> are SVGs, so you can include them into your HTML in a few ways depending on how your project is setup. Bootstrap Icons include a width and height of 1em by default to allow for easy resizing via font-size.
 
