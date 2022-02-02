@@ -3,10 +3,10 @@
 	<name>PLG_BI</name>
 	<author>Alexander Klein</author>
 	<creationDate>September 2020</creationDate>
-	<copyright>Copyright (C) 2021 Alexander Klein</copyright>
+	<copyright>Copyright (C) 2022 Alexander Klein</copyright>
 	<license>GNU General Public License version 3 or later</license>
 	<authorEmail>alexander.klein@fact-werbeagentur.de</authorEmail>
-	<version>1.7.2</version>
+	<version>1.8.0</version>
 	<description>PLG_BI_DESC</description>
 	<files>
 		<filename plugin="bi">bi.php</filename>
